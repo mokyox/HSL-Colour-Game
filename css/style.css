@@ -1,0 +1,117 @@
+:root {
+  --main-bg-color:  #232323;
+  --h1-bg-color: #584FBD;
+}
+
+html {
+  line-height: 1.6;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: var(--main-bg-color, #232323);
+  color: beige;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  padding: 20px 0;
+  font-weight: 700;
+  background-color: var(--h1-bg-color, #584FBD);
+}
+
+#colorDisplay {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 500px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px auto;
+}
+
+.square {
+  background: #030303;
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 15%;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#message {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#stripe {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  max-width: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto;
+  font-size: 1em;
+}
+
+.selected {
+  background-color: #115641;
+}
+
+button {
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  background: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  margin: auto;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #125741;
+  color: rgba(255, 255, 255, 0.8);
+}
