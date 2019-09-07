@@ -87,13 +87,13 @@ video {
 }
 
 :root {
-  --main-bg-color:  #232323;
-  --h1-bg-color: #584FBD;
+  --main-bg-color: #232323;
+  --h1-bg-color: #584fbd;
 }
 
 html {
   line-height: 1.6;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-box-sizing: border-box;
@@ -117,7 +117,7 @@ h1 {
   font-size: 2em;
   padding: 20px 0;
   font-weight: 700;
-  background-color: var(--h1-bg-color, #584FBD);
+  background-color: var(--h1-bg-color, #584fbd);
 }
 
 #colorDisplay {
